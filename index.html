@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOLD SMS - Login</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}
+    body{
+      min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;
+      background:linear-gradient(160deg,#062a54,#044b63 60%,#05616c);
+    }
+    .card{
+      width:100%;max-width:430px;min-height:720px;background:#fff;border-radius:24px;
+      padding:42px 26px;box-shadow:0 12px 30px rgba(0,0,0,.20)
+    }
+    .logo{text-align:center;margin-top:40px;color:#114d8d;font-size:34px;font-weight:700}
+    .brand{text-align:center;color:#114d8d;margin-top:8px;font-size:24px;font-weight:700}
+    h1{text-align:center;margin:24px 0 36px;color:#20232a;font-size:46px;font-weight:800}
+    .input{width:100%;height:68px;border:none;outline:none;border-radius:34px;padding:0 24px;background:#e9e9eb;font-size:24px;margin-bottom:18px}
+    .captcha-row{margin:18px 0 26px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .captcha-text{font-size:28px}
+    .captcha-input{flex:1;min-width:180px;height:62px;border:2px solid #333;border-radius:16px;padding:0 16px;font-size:30px}
+    .btn{
+      width:100%;height:74px;border:none;border-radius:37px;background:#53ba45;color:#fff;
+      font-size:44px;font-weight:800;cursor:pointer
+    }
+    .link{margin-top:20px;text-align:center}
+    .link a{color:#4d4d4d;text-decoration:underline;font-size:18px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">✦</div>
+    <div class="brand">GOLD SMS</div>
+    <h1>Account Login</h1>
+
+    <input class="input" type="text" placeholder="Username" />
+    <input class="input" type="password" placeholder="Password" />
+
+    <div class="captcha-row">
+      <div class="captcha-text">What is 8 + 3 = ? :</div>
+      <input class="captcha-input" type="text" placeholder="Answer" />
+    </div>
+
+    <button class="btn">LOGIN</button>
+
+    <div class="link">
+      <a href="#">Create your Account →</a>
+    </div>
+  </div>
+</body>
+</html>
